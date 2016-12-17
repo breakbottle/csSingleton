@@ -22,6 +22,8 @@ Include this class in your autoload folder or include in your project
 ```PHP
 YourClass::Instance();//equivalent to new YourClass()
 
+YourClass::Instance(array("configs"=>$this));//add defaults objects
+
 YourClass::Instance().function();
 
 YourClass::ChainInstance($addPropertiesToClassoObject);
