@@ -24,7 +24,7 @@ YourClass::Instance();//equivalent to new YourClass()
 
 YourClass::Instance().function();
 
-YourClass::ChainInstance($addPropertiesToClassoObject)
+YourClass::ChainInstance($addPropertiesToClassoObject);
 ```
 
 
